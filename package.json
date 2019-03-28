@@ -1,0 +1,15 @@
+{
+  "name": "aws-lambda-hands-on",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "sam:hello-world": "sam local invoke -t template.yml -e test/events/hello-world.json",
+    "test": "jest"
+  },
+  "author": "onigra <3280467rec@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
