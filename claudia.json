@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "aws-lambda-hands-on-executor",
+    "name": "aws-lambda-hands-on",
+    "region": "ap-northeast-1"
+  }
+}
